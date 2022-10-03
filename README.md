@@ -1,1 +1,1 @@
-# random_message_generator
+## Random message generator
