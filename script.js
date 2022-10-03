@@ -4,4 +4,13 @@ const horoscopeSigns = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', '
 const luck = ['good luck', 'bad luck'];
 const action = ['trust no one', 'spend more time outside', 'avoid people', 'make some friends'];
 
+const horoscopeSignsIndex = Math.floor(Math.random() * horoscopeSigns.length);
+const luckIndex = Math.floor(Math.random() * luck.length);
+const actionIndex = Math.floor(Math.random() * action.length);
+
+const printMessage = () => {
+    console.log(`Your sign is ${horoscopeSigns[horoscopeSignsIndex]}.`);
+    console.log(`You are having ${luck[luckIndex]}.`);
+    console.log(`You should ${action[actionIndex]}.`);
+}
                     
